@@ -9,31 +9,31 @@ body {
     background-color: #f4f4f4;
 }
 
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
+.resume {
+    width: 210mm; /* A4 width */
+    margin: 0 auto; /* Center the resume on the page */
+    padding: 20mm; /* Padding to ensure content doesn't touch edges */
+    background: #ffffff; /* Background color for the resume */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
 }
 
 /* Header Styles */
 header {
-    background: #35424a;
-    color: #ffffff;
-    padding: 20px;
     text-align: center;
+    margin-bottom: 20px;
+}
+h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #35424a;
+}
+h2 {
+    color: #35424a;
 }
 
 /* Section Styles */
 section {
-    background: #ffffff;
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-    color: #35424a;
+    margin-bottom: 20px;
 }
 
 /* List Styles */
@@ -46,20 +46,19 @@ li {
     margin: 10px 0;
 }
 
+h3 {
+    margin: 5px 0;
+}
+
 /* Footer Styles */
 footer {
-    background: #35424a;
-    color: #ffffff;
     text-align: center;
-    padding: 10px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    margin-top: 20px;
 }
 
 /* Links Styles */
 a {
-    color: #ffffff;
+    color: #35424a;
     text-decoration: none;
 }
 
