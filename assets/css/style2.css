@@ -9,7 +9,7 @@ body {
     background-color: #f4f4f4;
 }
 
-.resume {
+.container {
     width: 210mm; /* A4 width */
     margin: 0 auto; /* Center the resume on the page */
     padding: 20mm; /* Padding to ensure content doesn't touch edges */
